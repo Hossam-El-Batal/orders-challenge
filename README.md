@@ -45,11 +45,13 @@ This repository contains the implementation of two key tasks enhancement:
 
 -The time to live can be tuned according to the traffic
 
--Indexing of columns like customerId can improve query speed 
+-Indexing can improve query speed 
 
 ### List products API
 ### 1. **Assumptions**
 -Found some inefficiencies in the provided query like the calling of the database many times with each promise
+
+-The fineFirst was wrong as it was returning the first product matching each category
 ### 2. **Implementation**
 -Made a single query with filtering to match all matching products
 ### 3. **Optimization and suggestions**
