@@ -17,3 +17,4 @@ export class ProductController {
     return this.productsService.getProductById(Number(id));
   }
 }
+
