@@ -51,7 +51,7 @@ This repository contains the implementation of two key tasks enhancement:
 ### 1. **Assumptions**
 -Found some inefficiencies in the provided query like the calling of the database many times with each promise
 
--The fineFirst was wrong as it was returning the first product matching each category
+-The findFirst was wrong as it was returning the first product matching each category
 ### 2. **Implementation**
 -Made a single query with filtering to match all matching products
 ### 3. **Optimization and suggestions**
