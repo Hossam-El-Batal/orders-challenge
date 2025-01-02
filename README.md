@@ -9,7 +9,9 @@ This repository contains the implementation of two key tasks enhancement:
 
 2-Optimized List Products API: Refactoring and optimizing a poorly implemented /products API to handle large-scale traffic efficiently.
 
-3-Added Order Creation endpoint and implemented Pushover Library for notifications with every order creation.
+3-Added Order Creation endpoint
+
+4-Added Pushover Library for notifications with every order creation.
 
 ---
 ## Project Setup
@@ -54,10 +56,10 @@ This repository contains the implementation of two key tasks enhancement:
 
 ### 1. **Implementation**
 -Implemented a simple order creation query and DTO to test the added notification library
+
 -implemented pushover library with the order creation endpoint to notify with every order creation
 ### 2. **Optimization and suggestions**
 -IF the database data to be changed (mocking read data), the current order creation query would not be suffecient and we would use a transaction to ensure atomicty and consistency as prob we will have many operations for each order made. 
-
 
 
 
