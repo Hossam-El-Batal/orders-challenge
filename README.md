@@ -44,6 +44,7 @@ This repository contains the implementation of two key tasks enhancement:
 ### 3. **Optimization and suggestions**
 
 -The time to live can be tuned according to the traffic
+
 -Indexing of columns like customerId can improve query speed 
 
 ### List products API
