@@ -11,7 +11,7 @@ This repository contains the implementation of two key tasks enhancement:
 
 3-Added Order Creation endpoint
 
-4-Added Pushover Library for notifications with every order creation.
+4-Added **Pushover** Library for notifications with every order creation.
 
 ---
 ## Project Setup
@@ -21,9 +21,13 @@ This repository contains the implementation of two key tasks enhancement:
 - clone the repo
 - install dependencies : yarn install
 - setup the database :
--   yarn prisma:generate
-    yarn migrate:dev
-    yarn seed
+-      **yarn prisma:generate**
+-      **yarn migrate:dev**
+-      **yarn seed**
+    
+    
+    
+    
 - Run the server with : nest start
 
 ### 2. **Test Cases**
