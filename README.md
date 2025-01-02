@@ -55,9 +55,11 @@ This repository contains the implementation of two key tasks enhancement:
 ### 2. **Implementation**
 -Made a single query with filtering to match all matching products
 ### 3. **Optimization and suggestions**
--Added pagination 
--improved data return object with the products and its total count
--An improvement would be indexing the category column for faster lookup
+- Added pagination
+  
+- improved data return object with the products and its total count
+  
+- An improvement would be indexing the category column for faster lookup
 
 ### Create Order API
 
@@ -66,7 +68,7 @@ This repository contains the implementation of two key tasks enhancement:
 
 -implemented pushover library with the order creation endpoint to notify with every order creation
 ### 2. **Optimization and suggestions**
--IF the database data to be changed (mocking read data), the current order creation query would not be suffecient and we would use a transaction to ensure atomicty and consistency as prob we will have many operations for each order made. 
+-IF the database data to be changed (mocking real data), the current order creation query would not be suffecient and we would use a transaction to ensure atomicty and consistency as prob we will have many operations for each order made. 
 
 
 
